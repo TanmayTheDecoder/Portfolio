@@ -9,10 +9,10 @@ const Routing = () => {
   return (
     <div className='routing-container h-100p w-97'>
         <Routes>
-            <Route exact path='./portfolio' element={<Home />} />
-            <Route path='./about' element={<About />} />
-            <Route path='./experience' element={<Experience />} />
-            <Route path='./contact' element={<Contact />} />
+            <Route exact path='/portfolio' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/experience' element={<Experience />} />
+            <Route path='/contact' element={<Contact />} />
         </Routes>
     </div>
   )
