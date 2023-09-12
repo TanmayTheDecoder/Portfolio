@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://TanmayTheDecoder.github.io/portfolio/",
+  "homepage": "https://TanmayTheDecoder.github.io/portfolio",
   "private": false,
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
