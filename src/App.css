@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Quicksand:wght@300;400;500;600&display=swap');
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   background: #091B25;
@@ -413,7 +418,7 @@ a {
   .enlarge {
     width: 50vw !important;
   }
-  
+
   /* * --------------------Experience Page--------------------- */
   .experience-inner {
     height: 100%;
@@ -456,6 +461,7 @@ a {
 
 /* * ------------------------------------Laptops------------------------------------------- */
 @media (769px <=width <=1024px) {
+
   /* * ----------------------------Home Page----------------------- */
   .sidebar-container,
   .sidebar-inner {
@@ -488,7 +494,7 @@ a {
   .enlarge {
     width: 30vw !important;
   }
-  
+
   /* * -----------------------------------Experience Page------------------------------- */
   .experience-inner {
     height: 100%;
@@ -510,6 +516,7 @@ a {
 
 /* * ------------------------------------Desktops------------------------------------------ */
 @media (1025px <=width <=1200px) {
+
   /* * ------------------------------Home Page-------------------------------- */
   .sidebar-container,
   .sidebar-inner {
